@@ -155,6 +155,7 @@ function validate(){
         document.getElementById('pincode').value = ''
         document.getElementById('pincode-valid').style.display = 'none'
         document.getElementById('tnC').checked = false
+        document.getElementById('join').checked = false
     }
     else{
         error = false;
